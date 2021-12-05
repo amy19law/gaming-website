@@ -1,0 +1,151 @@
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+/* Splash Page */
+.splash{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: white;
+  z-index: 200;
+  color: darkslategrey;
+  font-family: 'Anonymous Pro', monospace;
+  text-align: center;
+  line-height: 90vh;
+}
+
+.splash.display-none{
+  position: fixed;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -10;
+  color: white;
+  font-family: 'Anonymous Pro', monospace;
+  text-align: center;
+  line-height: 90vh;
+}
+
+@keyframes fadeIn {
+  to{
+    opacity: 1;
+  }
+}
+
+.fadeIn{
+  opacity: 0;
+  animation: fadeIn 1s ease-in forwards;
+}
+
+/*Type Animation*/
+html {
+      min-height: 100%;
+      overflow: hidden;
+}
+
+body {
+      padding: 4em;
+      color: white;
+      font-family: 'Anonymous Pro', monospace;
+}
+
+.line {
+      position: relative;
+      top: 50%;
+      width: 16em;
+      margin: 0 auto;
+      border-right: 2px solid lightgrey;
+      font-size: 180%;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;transform: translateY(-50%);
+}
+
+.anim-typewriter {
+      animation: typewriter 4s steps(40) 1s 1 normal both,
+      blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+@keyframes typewriter {
+      from {
+            width: 0;
+      }
+      to {
+            width: 17em;
+      }
+}
+
+@keyframes blinkTextCursor {
+      from {
+            border-right-color: lightgrey;
+      }
+      to {
+            border-right-color: transparent;
+      }
+}
+
+/*Login*/
+body {
+  --color-primary: black;
+  --color-primary-dark: grey;
+  --color-success: green;
+  --border-radius: 10px;
+
+  margin: 0;
+  height: 850px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  background: linear-gradient(#1A2D2D, darkslategrey, #536B6B, #758989, #A7B4B4, #C7CFCF,  lightgrey);
+  background-size: cover;
+}
+
+.container {
+  width: 400px;
+  max-width: 400px;
+  margin: 1rem;
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  background: white;
+}
+
+.container{
+  font: 500 1rem 'Anonymous Pro', monospace;
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.form__input {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  box-sizing: border-box;
+  border-radius: var(--border-radius);
+  border: 1px solid #dddddd;
+  outline: none;
+  background: #eeeeee;
+  transition: background 0.2s, border-color 0.2s;
+  font: 500 1rem 'Anonymous Pro', monospace;
+  color: black;
+}
+
+#button {
+  display: block;
+  border: 1px solid darkslategrey;
+  width: 100%;
+  line-height: 2em;
+  color: darkslategrey;
+  background: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+}
+#button:hover {
+  color: white;
+  background: darkslategrey;
+}

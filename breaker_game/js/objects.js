@@ -1,3 +1,5 @@
+// Created by Amy Law
+
 // Creation & details of the objects displayed on screen
 // radius = r
 var animation = 0;
@@ -55,3 +57,5 @@ function Object(position, r) {
     return newObject;
   }
 }
+
+// Created by Amy Law

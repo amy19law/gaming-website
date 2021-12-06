@@ -1,3 +1,5 @@
+// Created by Amy Law
+
 // Splash Page for Instructions
 const splash = document.querySelector('.splash');
 
@@ -29,6 +31,8 @@ var waves = x=>{
     x = x * 0.01 % 255;
     return curve(p[Math.floor(x)], p[Math.ceil(x)], x - Math.floor(x));
 }
+
+// Created by Amy Law
 
 // Creating the Hills in the Game
 var hills = x=>{
@@ -94,6 +98,8 @@ var Ship =  function(){
 // Set Keys
 onkeydown = d => keys[d.key] = 1;
 onkeyup = d => keys[d.key] = 0;
+
+// Created by Amy Law
 
 // Game Variables
 var ship = new Ship();
@@ -161,6 +167,8 @@ function startGame(){
 
 }
 
+// Created by Amy Law
+
 // Function to Restart Game
 function restartGame(){
     ship = new Ship();
@@ -178,3 +186,5 @@ function endGame() {
 }
 
 startGame();
+
+// Created by Amy Law

@@ -1,3 +1,5 @@
+// Created by Amy Law
+
 const splash = document.querySelector('.splash');
 
 document.addEventListener('DOMContentLoaded', (e)=>{
@@ -101,6 +103,8 @@ function draw() {
   }
 }
 
+// Created by Amy Law
+
 // Function for Creating Text that will be displayed
 function createText() {
   instructions = createP("PRESS ENTER TO PLAY");
@@ -137,3 +141,5 @@ function keyPressed() {
     gameRestart = false;
   }
 }
+
+// Created by Amy Law

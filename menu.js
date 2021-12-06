@@ -1,3 +1,5 @@
+// Created by Amy Law
+
 const canvas = document.getElementById("canvas1");
 const ctx = canvas.getContext("2d");
 ctx.canvas.width  = window.innerWidth;
@@ -44,6 +46,8 @@ window.addEventListener('mousemove',
 		mouse.x = event.x;
 		mouse.y = event.y;
 });
+
+// Created by Amy Law
 
 // Creating Constructor Function for Mouse Effect
 function Effect (x, y, directionX, directionY, size, colour){
@@ -94,6 +98,8 @@ Effect.prototype.update = function(){
     }
     this.draw();
 }
+
+// Created by Amy Law
 
 // Create Mouse Effect Array 
 function init(){
@@ -147,3 +153,5 @@ document.addEventListener('DOMContentLoaded', (e)=>{
 })
 
 show()
+
+// Created by Amy Law

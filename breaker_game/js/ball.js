@@ -1,3 +1,4 @@
+// Created by Amy Law
 // Creating the Ball & Settings
 // radius = r, velocity = vel
 
@@ -75,3 +76,4 @@ function Ball(position) {
     }
   }
   
+// Created by Amy Law

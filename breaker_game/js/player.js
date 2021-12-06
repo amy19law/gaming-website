@@ -1,3 +1,5 @@
+// Created by Amy Law
+
 // Create Player/Bar
 // radius = r, height = h
 function Player() {
@@ -37,3 +39,5 @@ function Player() {
       else if (this.position.x + this.r >= width) this.position.x = width - this.r;
     }
   }
+
+// Created by Amy Law

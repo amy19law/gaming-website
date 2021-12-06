@@ -1,3 +1,5 @@
+// Created by Amy Law
+
 var animation = 0
 // Function to Create Confetti Element
 function Confetti(index) {
@@ -34,3 +36,5 @@ function Confetti(index) {
   }
 
 }
+
+// Created by Amy Law

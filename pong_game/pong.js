@@ -1,3 +1,5 @@
+// Created by Amy Law
+
 const splash = document.querySelector('.splash');
 
 document.addEventListener('DOMContentLoaded', (e)=>{
@@ -295,6 +297,8 @@ var pongGame = {
 	},
 };
 
+// Created by Amy Law
+
 // Player & Rival Object Settings
 var Objects = {
 	new: function (gameHalf) {
@@ -309,6 +313,8 @@ var Objects = {
 		};
 	}
 };
+
+// Created by Amy Law
 
 // Ball Settings
 var Ball = {
@@ -328,3 +334,5 @@ var Ball = {
 
 var mainGame = Object.assign({}, pongGame);
 mainGame.initialize();
+
+// Created by Amy Law
